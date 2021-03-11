@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <title>Sixteen Grams Coffee</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Nav-Bar -->
+      <header>
+        <div class="nav">
+          <div class="menu-btn">
+            <span class="nav-icon"><i class="fas fa-bars"></i></span>
+          </div>
+          <img src="/Images/Logo.png" alt="Logo" />
+          <div class="cart-btn-icon">
+            <span class="nav-icon">
+              <i class="fas fa-shopping-bag"></i>
+            </span>
+          </div>
+        </div>
+        <div class="search-container">
+          <input
+            class="search-bar"
+            type="text"
+            placeholder=" &#61442;  Search for products, brands etc..."
+          />
+        </div>
+      </header>
+      <!--End of Nav-Bar -->
+      <!-- Main Content -->
+      <main>
+        <section class="section-1">
+          <div class="title">
+            <h1 class="heading">Good Coffee is not hard to find, anymore.</h1>
+          </div>
+          <div class="buttons">
+            <div class="shop-btn">
+              <button class="btn">Shop Coffee</button>
+            </div>
+            <div class="quiz-btn">
+              <button class="btn">Find Your Coffee</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- End of  Main Content -->
+      <!-- Navigation Menu -->
+      <div class="nav-menu-overlay"></div>
+      <div class="nav-menu">
+        <div class="nav-menu-logo">
+          <img class="menu-logo" src="/Images/Logo.png" alt="Logo" />
+        </div>
+        <div class="menu-list">
+          <ul>
+            <li class="menu-items">
+              <div class="sub">Shop<i class="fas fa-plus"></i></div>
+              <ul class="sub-items">
+                <li>Coffee</li>
+                <li>Equipment</li>
+              </ul>
+            </li>
+
+            <li class="menu-items">Subscription</li>
+            <li class="menu-items">
+              <div class="sub">Learn<i class="fas fa-plus"></i></div>
+              <ul class="sub-items">
+                <li>Blog</li>
+                <li>Brewing Guide</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu-footer">
+          <button class="nav-quiz-btn">Take a Quiz</button>
+        </div>
+      </div>
+
+      <!-- End of Navigation Menu -->
+
+      <!-- Cart Drawer -->
+      <div class="cart-overlay"></div>
+      <div class="cart">
+        <div class="cart-logo">
+          <h2>Your Orders</h2>
+        </div>
+        <div class="cart-list">
+          <h3>Cart is empty.</h3>
+        </div>
+        <div class="cart-footer">
+          <button class="cart-btn">Checkout</button>
+        </div>
+      </div>
+
+      <!-- End of Navigation Menu -->
+      <footer>All rights Reserved @2021</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
